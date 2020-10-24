@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+## Security
+
+security:
+  oauth2:
+    client:
+      client-id: ${client-id}
+      resource-ids: "rest-api"
+      client-secret: ${client-secret}
